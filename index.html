@@ -5,39 +5,54 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>TESTE</title>
+  <title>Operação matemática</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <--- inicia o jogo --->
   <main>
-  <button class="start">START</button>
-  <h1>Multiplicação</h1>
+    <section class="inicio">
+      <h1>Multiplicação</h1>
+      <button class="start">START</button>
+    </section>
 
-  <div class="geradorAleatorio">
+    <section class="geradorAleatorio">
     
-    <input/ class="multiplicador" placeholder="Multiplicador"> X
-    
-    <input/ class="multiplicando" placeholder="Multiplicando">
-  </div>
-  
-      <div>
-        <textarea class="mensagem" placeholder="Confira aqui se acertou"></textarea>
+      <input class="multiplicador" placeholder="0">
+
+      <div class="operador">
+        *
       </div>
+    
+      <input class="multiplicando" placeholder="0">
+    </section>
+  
+    <section class="caixaDeResposta">
+      <textarea class="mensagem" placeholder="Confira aqui se acertou"></textarea>
+    </section>
+    
+    <section class="caixaDePontos">
+      <div>
+        <input class="ganhouPontos">
+        <p>Pontos ganho!</p>
+      </div>
+      <div>
+        <input class="perdeuPontos">
+        <p>Perdeu pontos!</p>
+      </div>
+      
+    </section>
    
-    <div class="input-informacao">
-      <input type"number" class="resposta" placeholder="Digite aqui sua resposta">
+    <section class="entradaDeInformacao">
+      <input type="number" class="resposta" placeholder="Digite aqui sua resposta">
     
       <button class="conferi">OK</button>
-    </div>
-      
-
+    </section>
   </main>
     
-    <footer>
-      <h1>Esse é um jogo essencial</h1>
-    </footer>
+  <footer>
+    <h1>Esse é um jogo essencial para melhorar sua performace neural!</h1>
+  </footer>
   <script src="main.js"></script>
-</body>
+</body>sec
 </html>

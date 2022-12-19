@@ -1,17 +1,83 @@
 *{
-  background-color: #cccccc;
-  
+    background-color: yellow;
+    
 }
+
+.inicio {
+  text-align: center;
+}
+
 .start {
   width: 200px;
-  height: 100px;
-  background-color: green;
+  height: 80px;
+  background-color: blue;
   font-size: 30px;
   font-weight: bold;
-  
+  border-radius: 15px;
+  color: white;
+    
+}
+
+.geradorAleatorio {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 
 }
 
-.main {
-  background-color: lightblue;
+.multiplicador, .multiplicando {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 22px;
+  margin: 20px;
+  
+}
+
+.operador {
+  padding: 40px 0;
+  font-size: 80px;
+}
+
+.mensagem {
+  width: 300px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 22px;
+  margin: 20px;
+}
+
+.caixaDePontos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ganhouPontos, .perdeuPontos {
+  width: 12px;
+  height: 10px;
+  background-color: white;
+}
+
+.resposta {
+  width: 180px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.conferi {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: 20px;
+  background-color: green;
+  color: white;
+  font-size: 30px;
+
+}
+
+.multiplicador, .multiplicando, .mensagem, .resposta {
+  background-color: white;
 }
